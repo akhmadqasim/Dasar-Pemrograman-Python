@@ -1,4 +1,9 @@
-dic = {"nama": "Akhmad Qasim", "prodi": "S1 TI", "nim": "2211102441237", "angkatan": "2022"}
+formatData = ["nama", "prodi", "nim", "angkatan"]
+data = ["Akhmad Qasim", "S1 Teknik Informatika", 2211102441237, 2022]
+dic = {}
+
+for x, y in zip(formatData, data):
+    dic[x] = y
 
 nama = dic["nama"]
 prodi = dic["prodi"]
@@ -6,9 +11,9 @@ nim = dic["nim"]
 angkatan = dic["angkatan"]
 
 userInput = "Akhmad Qasim"
-nimInput = "2211102441237"
+nimInput = 2211102441237
 
-if userInput == dic["nama"] and nimInput == dic["nim"]:
+if userInput == nama and nimInput == nim:
     print("Nama :", nama)
     print("\nProdi :", prodi)
     print("\nNIM :", nim)
