@@ -18,14 +18,8 @@ Membahas beberapa materi Python, seperti:
 12. Penanganan Berkas
 
 ## Ada Apa Aja?
-Arsip file meliputi:
 
 - Source Code setiap praktikum
 - Laporan praktikum
 - Modul praktikum
 
-Ada masalah dengan kodenya? Atau sekedar say hi 👋
-Ini email ku ya "akhmadqasim at gmail dot com"
-
-> Setiap orang bisa menguasai sesuatu
-> tapi tidak segalanya dapat dikuasai
